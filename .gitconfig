@@ -58,3 +58,5 @@
 	autosquash = true
 [diff]
 	algorithm = patience
+[credential]
+	helper = osxkeychain

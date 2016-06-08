@@ -124,3 +124,6 @@ zrcl="$HOME/.zshrc.local"
 
 # remove duplicates in $PATH
 typeset -aU path
+
+# added by travis gem
+[ -f /Users/allendayag/.travis/travis.sh ] && source /Users/allendayag/.travis/travis.sh

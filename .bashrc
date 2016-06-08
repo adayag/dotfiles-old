@@ -40,3 +40,11 @@ fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ ! -f "$HOME/.bashrc.local" ] || . "$HOME/.bashrc.local"
+
+# docker-osx-dev
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/allendayag/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
+
+# added by travis gem
+[ -f /Users/allendayag/.travis/travis.sh ] && source /Users/allendayag/.travis/travis.sh
